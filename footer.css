@@ -1,0 +1,452 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	font-size: 1vw;
+}
+
+body{
+	/*background: url('https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&w=1000&q=80');*/
+}
+
+html,body,footer,div,hr,header,h1,main{
+	margin: 0%;
+	padding: 0%;
+	font-size: 1vw;
+}
+
+header{	
+	 
+	margin-top: 0%;
+	
+	width: 100%;
+	height: 13vw;
+	background: url('https://i.pinimg.com/originals/a0/16/99/a016992542853f56168436eb10216e00.jpg') 50% 50% / 100% no-repeat;
+	padding-bottom: 7%;
+}
+
+h1{
+	text-align: center;
+	color: #ffb300;
+	font-family: 'Great Vibes', cursive;
+	font-size: 6vw;
+	padding-top: 1%;
+}
+
+#one{
+	text-align: center;
+	font-size: 1.75vw;
+	color: white;
+	padding: 0%;
+}
+
+#round{
+	display: inline-block;
+ 	border-radius: 20% / 50%;
+ 	padding: 1vw 2vw;
+ 	border: 0.2vw solid #000;
+ 	background-color: #14497f;
+ 	text-align: center; 
+ 	color: white;
+ 	font-family: 'Dancing Script', cursive;
+ 	font-size: 1.25vw; 
+}
+
+.container {
+  position: relative;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8vw;
+  left: 32vw;
+}
+
+.roundmenu{
+ 	border-radius: 20% / 50%;
+ 	padding: .25vw 2.5vw;
+ 	border: 0.2vw solid #000;
+ 	background: linear-gradient(135deg,yellow,#f9a602,orange);
+ 	text-align: center; 
+ 	color: white;
+ 	font-family: 'Great Vibes', cursive;
+ 	font-size: 2vw; 
+ 	
+}
+
+.dishname{
+	
+	padding: 0%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.75vw;
+	color: white;
+}
+
+.indianSlides {display:none;}
+.chineseSlides {display:none;}
+.japaneseSlides {display:none;}
+.europeanSlides {display:none;}
+.sealoungeSlides {display:none;}
+.bakerySlides {display:none;}
+.dessertSlides {display:none;}
+.beveragesSlides {display:none;}
+
+.description{	
+	padding-bottom: 2%;
+	font-family: 'Parisienne', cursive;
+	font-size: 1.5vw;
+}
+
+.price{
+	font-family: 'Dancing Script', cursive;
+	padding: 0%;
+}
+
+#booktable{
+	position: relative;
+    background: #696969;
+    overflow: hidden;
+    width: 100%;
+    height: 50vw;
+    display: none;
+}
+
+#booktable:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    background-image: url('https://www.gaia-hotels.com/imagebank/restaurant-kos1048_xl.jpg');
+    background-repeat: no-repeat;
+    background-position: 75% 75%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#booktable h3 {
+    padding: 10px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: black;
+    font-size: 400%; 
+    padding: 0vw;
+	padding-top: 1vw;
+	margin-top: 0vw;
+	margin-bottom: 1vw;
+	font-family: 'Playfair Display', serif;
+	text-shadow: 0.1vw 0.1vw 0.1vw #9c6424;
+} 
+
+#booktable form {
+    padding: 10px;
+    margin-left: 42%;
+    z-index: 2;
+    position: relative;
+    color: #000;
+} 
+
+#booktable input{
+	margin-top: .5vw;
+	margin-bottom: 1vw;
+	font-size: 1.25vw;
+	width:16.5vw;
+	border: .1vw round black;
+	border-radius: 1vw;
+	padding: 0.2vw;
+}
+
+#booktable label{
+	font-size: 1.5vw;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#booktable button{
+	padding: 1%;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 1vw;
+	width: 10vw;
+	margin-left:5.5%;
+}
+
+#menu{
+	position: relative;
+	padding-left: 2vw;
+	/*background: url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80') 50% 50% / 100% no-repeat;*/
+}
+
+.mainmenu{
+	margin:2vw;
+}
+
+.menunoidea{
+	background-color: orange;
+	display: inline-block;
+	width: 31%;
+}
+
+.mySlides {
+	display: none;
+}
+
+.slidemySlides{
+	display: none;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.interior{
+	width: 100%;
+	height:100%;
+}
+
+#quote{
+
+	width: 100%;
+    height: 100%;
+	background:url('https://i.pinimg.com/originals/a0/16/99/a016992542853f56168436eb10216e00.jpg');
+	background-repeat: no-repeat;
+    background-position: 43% 0%;
+    text-shadow: 0.22vw 0.366vw 0vw #595858, 0.293vw 0.44vw 0.22vw #999, 0.586vw 0.81vw 0.732vw #ccc;
+	font-family: 'Cedarville Cursive', cursive;
+	
+	}
+
+#quotetext{
+	padding-top: 3%;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	color: #fefefe;
+	font-family: helvetica;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+
+	font-size: 2.5vw;
+}
+
+#text3d {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color:black;
+  width: 92%;
+  height:5vw;
+  text-shadow: 0.22vw 0.366vw 0vw #aaaaaa, 0.293vw 0.44vw 0.22vw grey, 0.586vw 0.81vw 0.732vw black;
+  font-size: 2vw;
+}
+
+#shadowBox {
+	background : url('https://wallpaperset.com/w/full/c/1/6/235591.jpg') 0% 90% / 100% no-repeat;
+	background-color: #000000;
+	width:100%;
+	height: 12vw;
+    /* Black w/opacity/see-through */
+    border: .3vw solid;
+}
+
+.royal {
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Allura', cursive;
+    letter-spacing: .3vw;
+    
+}
+.royal_text_animated {
+
+    background: linear-gradient(90deg,#9b1c31,#004789,#663399,#004789,#9b1c31);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: royal_animation 5s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes royal_animation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.note{
+	
+	font-size: 1.5vw;
+	font-family: 'Dancing Script', cursive;
+}
+
+footer{
+	width: auto;
+	position: relative;
+}
+
+.column{
+	width: 20%;
+	font-size: 1.2vw;
+	margin: 1%;
+}
+
+#topfooter{
+
+	background-color: #060708;
+	color: white;
+	padding: 0%;
+	display: flex;
+}
+
+
+#about{
+
+	width: 22%;
+	display: inline-block;
+	font-family: 'Indie Flower', cursive;
+}
+
+#gallery{
+	display: inline-block;
+	width: 30%;
+}
+
+table{
+	border-collapse: collapse;
+	display: inline-block;
+}
+
+td, th {
+  color: white;
+  border: .1vw solid #060708;
+  text-align: left;
+  padding: 0.5vw;
+
+}
+
+
+#operation{
+	display: inline-block;
+	
+}
+
+		
+#lsc{
+	display: inline-block;
+	width: 20%;
+}
+
+#galleryimage{
+	width: 7.3vw;
+	height: 7.3vw;
+	padding: 1.5%;
+	border: .1vw solid white;
+}
+
+#instagram{
+	background: -webkit-linear-gradient(#515BD4, #8134AF, #DD2A7B,  #FEDA77, #F58529);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:2.5vw;
+	padding-left:1%;
+	padding-right: 1%;
+}
+
+#location{
+	font-family: 'Tinos', serif;
+	margin-left: 13%;
+	font-size: 1.25vw;
+}
+
+#social{
+	padding-top: 2vw;
+}
+
+#bottomfooter{
+	border: 0%;
+	margin: 0%;
+	background-color: #000000;
+	padding: 1%;
+
+}
+
+#icon{
+	font-size:2.5vw;
+	padding-left:1%;
+	padding-right: 1%;
+}
+
+#copyright{
+	font-size: 1.3vw;
+	color: white;
+}
+
+#PrivacyPolicy{
+	color: #0A62B9;
+	font-size: 1.3vw;
+}
+
+
+#cuisine{
+	display: inline-block;
+	text-align: center;
+	font-size: 3vw;
+	font-family: 'Courgette', cursive;
+	padding: 0%;
+	margin-left: 45%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: #e0af3d;
+	
+}
+
+#menu{
+	background: #202020;
+	background: -webkit-linear-gradient(#111111,#996f0e,#000000,#2f2f2f,#000000);
+	/*background:#667292; */
+	width: 100%;
+	height:75%;
+	
+}
+
+.menutext{
+	
+	padding-left: 0%;
+	font-size: 1.4vw;
+	font-family: 'BenchNine', sans-serif;
+}
+
+#menu div{
+	
+	margin: 0vw;
+	
+	
+}
+.btn{
+	margin-left: 2vw;
+	margin-right: 2vw;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	padding: 0.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 20%;
+	background-color: white;
+	width:7.5vw;
+	height:3vw;
+}
