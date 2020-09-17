@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="footer.css">
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Great+Vibes&family=Courgette&family=BenchNine&family=Allura&family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Indie+Flower&family=Great+Vibes&family=Permanent+Marker&family=Tangerine&family=Quicksand:wght@600&family=Ranchers&family=Playfair+Display:ital@1&family=Italianno&family=Playball&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		.menucuisine{
+			display: none;
+		}
+	</style>
+
+</head>
+<body>
+	<header>
+		<h1>Delicious Treaty</h1>
+		<div id='one'>A Family Restaurant</div>
+	</header>
+
+	<main>
+		
+		<center>
+		<div class="slideshow-container" style="margin-top: 1vw;padding: 1vw;background-color: black">
+
+			<div class="slidemySlides">
+			  <img src="https://www.steppestravel.com/app/uploads/2020/03/gol-gappa-indian-street-food-dish.jpg" style="width:100%;height: 20vw;">
+			</div>
+
+			<div class="slidemySlides">
+			  <img src="https://thumbs.dreamstime.com/b/paneer-tikka-skewers-black-bowl-dark-slate-background-indian-cuisine-dish-food-grilled-cheese-vegetables-163570924.jpg" style="width:100%;height: 20vw;">
+			</div>	
+
+			<div class="slidemySlides">
+			 
+			  <img src="https://www.mcdonaldwhsl.com/wp-content/uploads/2015/09/AdobeStock_27579652.jpeg" style="width:100%;height: 20vw;">
+			  
+			</div>
+
+			<div class="slidemySlides">
+			  
+			  <img src="https://wallpaperaccess.com/full/82640.jpg" style="width:100%;height: 20vw;">
+			  
+			</div>
+
+			<div class="slidemySlides">
+			  
+			  <img src="https://img.buzzfeed.com/video-api-prod/assets/8481bed397c3442a9c5dcb10526ffecc/YT_Thumb_A.jpg" style="width:100%;height: 20vw;">
+			  
+			</div>
+		</div>
+	</center>
+	<br>
+	<div style="padding: 2%;">
+			<center><button id="round" onclick="bookmytable()">BOOK A TABLE</button> <span style="color: #37418b;font-size: 175%;padding: 1%;">OR</span> <button id="round" onclick="">ORDER ONLINE</button></center><br>
+		</div>
+		<section id="menu">
+			<p id="cuisine">CUISINE</p><br>
+				<div style="width: 100%;height: 100%">
+					<a href="javascript:void(0)" onclick="openMenu(event, 'indian');" id="myLink">
+					<button class="btn menutext tablink">Indian</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'chinese');" >
+					<button class="btn menutext tablink">Chinese</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'japanese');" >
+					<button class="btn menutext tablink">Japanese</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'european');" >
+					<button class="btn menutext tablink">European</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'sealounge');">
+					<button class="btn menutext tablink">Sea Lounge</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'bakery');">
+					<button class="btn menutext tablink">Bakery</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'dessert');">
+					<button class="btn menutext tablink">Dessert</button>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'beverages');">
+					<button class="btn menutext tablink">Beverages</button>
+					</a>
+				</div>
+		</section>
+
+		<!--Indian-->
+		<div id='indian' class="menucuisine">
+		<div style="background-color: black;padding: 1vw;" >
+	
+		<div class="container">
+		
+			<div class="indianSlides">
+			<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Soups</span><br><br>
+				<span class="dishname">Tamatar Santre ka Saar (110 Kcal)</span><span class="dishname" style="margin-left: 5vw">₹550</span><br>
+				<span class="description">Tomato soup with a hint of orange and spices</span><br><br>
+				<span class="dishname">Bhune Makai ka Shorba</span><span class="dishname" style="margin-left: 12.2vw">₹550</span><br>
+				<span class="description">Spiced roasted corn broth</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 4.5vw;">Appetizer</span><br><br>
+				<span class="dishname">Crispy Kabuli Chana Chaat</span><span class="dishname" style="margin-left: 10.5vw">₹875</span><br>
+				<span class="description">Batter fried chickpeas with sweet yogurt and<br> dry mango chutney</span><br><br>
+				<span class="dishname">Bhatti ka Paneer</span><span class="dishname" style="margin-left: 17vw">₹1050</span><br>
+				<span class="description">Cottage cheese marinated with home ground<br>spices cooked over glowing embers, a speciality<br>of Amritsar </span><br><br>
+				<span class="dishname">Lackha Seekh</span><span class="dishname" style="margin-left: 18.7vw">₹1050</span><br>
+				<span class="description">Sweet corn pounded with Punjabi spices<br>skewered and cooked on coal embers</span><br><br>
+			</div>
+			</div>
+
+			<div class="indianSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Master Strokes</span><br><br>
+				<span class="dishname">Paneer Makhani</span><span class="dishname" style="margin-left: 17vw">₹1200</span><br>
+				<span class="description">Cottage cheese chunks with a buttery tomato<br>gravy</span><br><br>
+				<span class="dishname">Spicy Gucchi Kumbh</span><span class="dishname" style="margin-left: 14.5vw">₹1950</span><br>
+				<span class="description">Handpicked Kashmiri morels, complimented<br>with button mushrooms</span><br><br>
+				<span class="dishname">Baingan Bharta (350 Kcal)</span><span class="dishname" style="margin-left: 9.3vw">₹1250</span><br>
+				<span class="description">A North Indian delicacy of brinjal charred<br>in a tandoor, cooked with onions and tomatoes</span><br><br>
+				<span class="dishname">Mausam ki Tarkari</span><span class="dishname" style="margin-left: 15vw">₹1200</span><br>
+				<span class="description">Seasonal vegetable made home style with robust<br>Indian spices </span><br><br>
+				<span class="dishname">Paneer Hara Pyaz</span><span class="dishname" style="margin-left: 16vw">₹1200</span><br>
+				<span class="description">Paneer delicacy from Punjab, finished with fresh<br>spring onion, spices and cream</span><br><br>
+			</div>
+			</div>
+
+			<div class="indianSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Bread Canvas</span><br><br>
+				<span class="dishname">Naan-Plain/Garlic/Butter/Cheese</span><span class="dishname" style="margin-left: 5.5vw">₹325</span><br>
+				<span class="description">Refined flour bread made in a tandoor</span><br><br>
+				<span class="dishname">Tandoori Roti</span><span class="dishname" style="margin-left: 18.75vw">₹325</span><br>
+				<span class="description">Whole wheat bread made in a tandoor,<br>served plain or with butter</span><br><br>
+				<span class="dishname">Paratha-Laccha/Pudina/Mirchi</span><span class="dishname" style="margin-left: 6.25vw">₹325</span><br>
+				<span class="description">Layered whole wheat bread topped with mint<br>leaves or chillies</span><br><br>
+				<span class="dishname">Kulcha-Paneer/Aloo Dhaniya </span><span class="dishname" style="margin-left: 7.5vw">₹325</span><br>
+				<span class="description">Refined flour bread served plain or stuffed<br>with cottage cheese, or<br>potato and raisins or potato and coriander</span><br><br>
+			</div>
+			</div>
+
+			<div class="indianSlides">
+			<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Rice Spread</span><br><br>
+				<span class="dishname">Subz Biryani</span><span class="dishname" style="margin-left: 19.5vw">₹550</span><br>
+				<span class="description">A fragrant assortment of garden fresh vegetables<br>and basmati rice, cooked with mild spices in dum,<br>an ancient slow cooking technique</span><br><br>
+				
+				
+				<span class="dishname">Masala Kraft Paraat Pulao</span><span class="dishname" style="margin-left: 10.5vw">₹550</span><br>
+				<span class="description">Curry layered with aromatic basmati rice, served<br>in the traditional flat copper platter called paraat</span><br><br>
+				<span class="dishname">Steamed Basmati Rice</span><span class="dishname" style="margin-left: 13.5vw">₹1050</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 4.5vw;">Yogurt Soft Hues</span><br><br>
+				<span class="dishname">Tadka Dahi</span><span class="dishname" style="margin-left: 20.3vw">₹400</span><br>
+				<span class="description">Spiced yogurt with vegetables</span><br><br>
+				
+				<span class="dishname">Vegetable Raita</span><span class="dishname" style="margin-left: 18vw">₹400</span><br>
+				<span class="description">Yogurt tempered with Indian spices</span><br><br>
+			</div>
+			</div>
+
+			</div>
+			<center>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivsindian(-1)">Prev</button>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivsindian(1)">Next</button>
+			</center>
+			</div>
+			</div>
+			<!--Chinese-->
+			<div id='chinese' class="menucuisine">
+			<div style="background-color: black;padding: 1vw;" >
+	
+		<div class="container">
+		
+			<div class="chineseSlides">
+			<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Soups</span><br><br>
+				<span class="dishname">Onion Potato Korean Spicy Soup</span><span class="dishname" style="margin-left: 8.5vw">₹800</span><br>
+				<span class="description">Sichuan vegetable soup - Edamame, potato,<br>mushroom, sichuan style broth</span><br><br>
+				<span class="dishname">Jade soup Vegetable</span><span class="dishname" style="margin-left: 16.5vw">₹750</span><br><br><br><br>
+				<span class="roundmenu" style="margin-left: 4.5vw;">Starters</span><br><br>
+				<span class="dishname">Stir-fried Spicy Bean Shreds</span><span class="dishname" style="margin-left: 10vw">₹1200</span><br>
+				<span class="description">Crispy shredded potatoes, fresh chilli,Chinese<br>spice blend</span><br><br>
+				<span class="dishname">Stir-fried Garlic Kale with<br>Yangjiang Douchi</span><span class="dishname" style="margin-left: 18vw">₹1150</span><br>
+				<span class="description">Stir fried kailan, black bean and elephant<br>garlic</span><br><br>
+				<span class="dishname">Lackha SeekhAsparagus, corn dumpling</span><span class="dishname" style="margin-left: 4vw">₹750</span><br><br>
+				<span class="dishname">Sichuan chilli baby corn</span><span class="dishname" style="margin-left: 14.3vw">₹1150</span>
+			</div>
+			</div>
+
+			<div class="chineseSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Main Course</span><br><br>
+				<span class="dishname">Home-style vegan eggplant</span><span class="dishname" style="margin-left: 11.5vw">₹1300</span><br>
+				<span class="description">Eggplant, hoisin sauce</span><br><br>
+				<span class="dishname">Tofu, box, crispy auspicious chili</span><span class="dishname" style="margin-left: 8.25vw">₹1300</span><br>
+				<span class="description">Beancurd, eggplant, pickled guillian chilli</span><br><br>
+				<span class="dishname">fry okra wild mushrooms</span><span class="dishname" style="margin-left: 12.5vw">₹1300</span><br>
+				<span class="description">Wok-fried exotic vegetables,smoked soybean sauce</span><br><br>
+				<span class="dishname">Broccoli, asparagus, fennel and kailan</span><span class="dishname" style="margin-left: 4.25vw">₹1350</span><br>
+				<span class="description">sizzled with ginger, chilli, soring onion and soya </span><br><br>
+				<span class="dishname">Delicious Treaty Special three flavour<span class="dishname" style="margin-left: 5vw">₹1250</span><br>noodle</span><br><br>
+				<span class="dishname">Broccoli, asparagus and bell peppers,<span class="dishname" style="margin-left: 5.5vw">₹2750</span><br>black bean sauce - Lotus root, ginkgo<br>nuts and bamboo sprouts malah oil<br>noodle</span><br><br>
+				<span class="dishname">Assorted vegetable in black pepper sauce</span><span class="dishname" style="margin-left: 3.65vw">₹1300</span><br><br>
+				<span class="dishname">Konjee crispy morels</span><span class="dishname" style="margin-left: 16.3vw">₹1650</span><br><br>
+			</div>
+			</div>
+
+			</div>
+			<center>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivschinese(-1)">Prev</button>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivschinese(1)">Next</button>
+			</center>
+			</div>
+		</div>
+
+		<div id='japanese' class="menucuisine">
+		<div style="background-color: black;padding: 1vw;" >
+	
+		<div class="container">
+		
+			<div class="japaneseSlides">
+			<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				
+				<span class="roundmenu" style="margin-left: 5vw;">Hot Appetiers</span><br><br><br>
+				<span class="dishname">Mushroom pizza (398 Kcal)</span><span class="dishname" style="margin-left: 9vw">₹2050</span><br>
+				<span class="description">truffle sabayon sauce</span><br><br>
+				<span class="dishname">Crispy koya tofu</span><span class="dishname" style="margin-left: 16.75vw">₹2050</span><br>
+				<span class="description">kinoko ankake sauce</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 4.5vw;">Cold Appetizers</span><br><br><br>
+				<span class="dishname">Wasabi taco (381.6 Kcal)</span><span class="dishname" style="margin-left: 10.5vw">₹1850</span><br>
+				<span class="description">spiced avocado</span><br><br>
+				<span class="dishname">Tofu carpaccio (350 Kcal)</span><span class="dishname" style="margin-left: 10.5vw">₹1800</span><br>
+				<span class="description">yuzu soy </span><br><br>
+				<span class="dishname">Avocado tartare (356 Kcal)</span><span class="dishname" style="margin-left: 9.5vw">₹1800</span><br>
+				<span class="description">tonburi</span><br><br>
+			</div>
+			</div>
+
+			<div class="japaneseSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Robatayaki</span><br><br><br>
+				<span class="dishname">Robatayaki moriawase</span><span class="dishname" style="margin-left: 13.25vw">₹2350</span><br>
+				<span class="description">assorted vegetables</span><br><br>
+				<span class="dishname">White asparagus</span><span class="dishname" style="margin-left: 16.65vw">₹1550</span><br><br>
+				<span class="dishname">Black garlic</span><span class="dishname" style="margin-left: 19.75vw">₹1550</span><br><br>
+				<span class="dishname">Lotus stem</span><span class="dishname" style="margin-left: 20.5vw">₹1150</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 5vw;">Entree</span><br><br><br>
+				<span class="dishname">Renkon mochi steak</span><span class="dishname" style="margin-left: 15vw">₹2300</span><br>
+				<span class="description">tomato soy sauce</span><br><br>
+				<span class="dishname">Roasted eggplant toban</span><span class="dishname" style="margin-left: 13vw">₹2050</span><br>
+				<span class="description">Sakura miso Sauce</span><br><br>
+				<span class="dishname">Mixed vegetable ‘wok saute’ shio aji</span><span class="dishname" style="margin-left: 5.25vw">₹1950</span><br>
+				<span class="description">vegetable of the day</span>
+			</div>
+			</div>
+
+			<div class="japaneseSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Sushi Rolls</span><br><br><br>
+				<span class="dishname">Spicy myoga roll</span><span class="dishname" style="margin-left: 17vw">₹1150</span><br><br>
+				<span class="dishname">Spicy avocado (351 Kcal)</span><span class="dishname" style="margin-left: 11vw">₹1150</span><br><br>
+				<span class="dishname">Spicy kappa (132 Kcal)</span><span class="dishname" style="margin-left: 12vw">₹1150</span><br><br>
+				<span class="dishname">Spicy yaki shiitake (130 Kcal) </span><span class="dishname" style="margin-left: 7vw">₹1150</span><br><br>
+				<span class="dishname">Kanpyo maki (164 Kcal) </span><span class="dishname" style="margin-left: 10.7vw">₹1150</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 5vw;">Nori Less Rolls</span><br><br><br>
+				<span class="dishname">Crispy cucumber avocado roll </span><span class="dishname" style="margin-left: 8vw">₹1250</span><br><br>
+				<span class="dishname">Asparagus tempura roll </span><span class="dishname" style="margin-left: 11.5vw">₹1250</span><br><br>
+				<span class="dishname">Spicy shishito pepper tempura roll </span><span class="dishname" style="margin-left: 5vw">₹1250</span><br><br>
+			</div>
+			</div>
+
+			</div>
+			<center>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivsjapanese(-1)">Prev</button>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivsjapanese(1)">Next</button>
+			</center>
+			</div>
+			</div>
+
+			<div id='european' class="menucuisine">
+		<div style="background-color: black;padding: 1vw;" >
+	
+		<div class="container">
+		
+			<div class="europeanSlides">
+			<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				
+				<span class="roundmenu" style="margin-left: 5vw;">DT's Special</span><br><br><br>
+				<span class="dishname">Pithivier, pecan nut, wild mushrooms</span><span class="dishname" style="margin-left: 4.5vw">₹2000</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 5vw;">Soups</span><br><br><br>
+				<span class="dishname">Chilled zucchini soup, goat cheese,<span class="dishname" style="margin-left: 7vw">₹1000</span><br>black olive</span><br>
+				<span class="dishname"><span class="dishname">Dutch asparagus soup, brioche crisps</span><span class="dishname" style="margin-left: 5vw">₹1250</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 4.5vw;">Appetizer</span><br><br>
+				<span class="dishname">Belgium endive, avocado salad</span><span class="dishname" style="margin-left: 9vw">₹1500</span><br><br>
+				<span class="dishname">Salad of pickled vegetables, herbed<span class="dishname" style="margin-left: 6.2vw">₹1500</span><br>cheese beignets</span><br><br>
+				<span class="dishname">Baby artichoke, purple potato, truffle </span><span class="dishname" style="margin-left: 4.5vw">₹1850</span><br>vinaigrette<br><br>
+
+			</div>
+			</div>
+
+			<div class="europeanSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 4vw;">Pasta and Vegetables</span><br><br><br>
+				<span class="dishname">Pithivier Provencal, paprika butter</span><span class="dishname" style="margin-left: 5.75vw">₹2000</span><br><br>
+				<span class="dishname">Asparagus and pea risotto, parmesan</span><span class="dishname" style="margin-left: 4.5vw">₹1550</span><br><br>
+				<span class="dishname">Croustillant of confit vegetables, smoked<span class="dishname" style="margin-left: 2.5vw">₹2500</span><br>eggplant caviar, yoghurt, mint</span><br><br>
+			</div>
+			</div>
+
+			<div class="japaneseSlides">
+				<center><img src="https://i.pinimg.com/736x/5a/b9/d2/5ab9d2ea8328719ce150b8655b6e86bb.jpg" style="width:50%;height:60vw;"></center>
+			<div class="top-left">
+				<span class="roundmenu" style="margin-left: 5vw;">Sushi Rolls</span><br><br><br>
+				<span class="dishname">Spicy myoga roll</span><span class="dishname" style="margin-left: 17vw">₹1150</span><br><br>
+				<span class="dishname">Spicy avocado (351 Kcal)</span><span class="dishname" style="margin-left: 11vw">₹1150</span><br><br>
+				<span class="dishname">Spicy kappa (132 Kcal)</span><span class="dishname" style="margin-left: 12vw">₹1150</span><br><br>
+				<span class="dishname">Spicy yaki shiitake (130 Kcal) </span><span class="dishname" style="margin-left: 7vw">₹1150</span><br><br>
+				<span class="dishname">Kanpyo maki (164 Kcal) </span><span class="dishname" style="margin-left: 10.7vw">₹1150</span><br><br><br>
+				<span class="roundmenu" style="margin-left: 5vw;">Nori Less Rolls</span><br><br><br>
+				<span class="dishname">Crispy cucumber avocado roll </span><span class="dishname" style="margin-left: 8vw">₹1250</span><br><br>
+				<span class="dishname">Asparagus tempura roll </span><span class="dishname" style="margin-left: 11.5vw">₹1250</span><br><br>
+				<span class="dishname">Spicy shishito pepper tempura roll </span><span class="dishname" style="margin-left: 5vw">₹1250</span><br><br>
+			</div>
+			</div>
+
+			</div>
+			<center>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivseuropean(-1)">Prev</button>
+			<button class="btn" style="background-color: black;font-size: 1.5vw;color: white;border-color: #f9a602;" onclick="plusDivseuropean(1)">Next</button>
+			</center>
+			</div>
+			</div>
+
+		<div id="booktable">
+			
+			<h3>Delicious Treaty</h3>
+			
+				<form>
+					
+					<label for="name">Name</label><br>
+					<input type="text" name="name" id='name' placeholder=" Vishnu Aggarwal" required><br>
+
+					<label for="email">Email</label><br>
+					<input type="email" name="email" id='email' placeholder=" abc@xyz.com" required><br>
+
+					<label for="pnumber">Phone Number</label><br>
+					<input type="tel" name="pnumber" id='pnumber' placeholder=" 9548******"  pattern="[0-9]{10}"required><br>
+
+					<label for="number">Number of guests</label><br>
+					<input type="Number" name="number" id='number' max='10' required><br>
+
+					<label for="date">Date</label><br>
+					<input type="date" name="date" id='date' required><br>
+
+					<label for="time">Time</label><br>
+					<input type="time" name="time" id='time' required><br>
+
+				    <button onclick="">Book Table</button>
+					</div>
+				</form>
+			<br><br>
+		</div>
+		
+		<div>
+			<div class="slideshow-container" style="margin-top: 1vw;padding: 1vw;background-color: black">
+				<div class="mySlides interior">
+			 		<img src="https://i.pinimg.com/originals/3d/a3/7d/3da37dc6421f978a50e165466f221d72.jpg" style="width:100%;height: 30vw;">
+				</div>
+				<div class="mySlides interior">
+  					<img src="https://i.pinimg.com/originals/aa/04/a1/aa04a15892678d314a533b52397a9cf6.jpg" style="width:100%;height: 30vw;">
+  				</div>
+	  			<div class="mySlides interior">
+	  				<img src="https://thearchitectsdiary.com/wp-content/uploads/2019/12/Triple-A-1.jpg" style="width:100%;height: 30vw;">
+	  			</div>
+	  		</div>
+		</div>
+		
+
+		
+		<!---<div style="width: 100%;height: 13vw">
+		<div id="quote">
+			<div id="quotetext"><b><center>" Part of the secret of success in life is to eat what you like and let the food fight it out inside "</center></b></div>
+		</div>
+	</div>
+	<div style="width: 100%;height: 100%">
+	<div id="text3d" style="margin: 5%;margin-top: 2%;">
+		A great introduction to culture is their cuisine. It not only reflects their evolution but also their beliefs and traditions.<br>
+		<span style="float: right">~ Vikas Khanna</span>
+	</div>
+	</div>
+	<br>
+	<div id="shadowBox">
+    	<h2 class="royal royal_text_animated" style="margin: 5%;margin-bottom: 3%;margin-top: 3%">One cannot savour the taste of success without a little taste of failure.<br><span style="float: right;color: white">~Sanjeev Kapoor</span>
+    	</h2>
+	</div>
+	<div class="slideshow-container">
+		<div id="interior" class="mySlides">
+			<img src="https://i.pinimg.com/originals/3d/a3/7d/3da37dc6421f978a50e165466f221d72.jpg" style="width:100%">
+		</div>
+		<div id="interior" class="mySlides">
+			<img src="" style="width:100%">
+		</div>
+		<div id="interior" class="mySlides">
+			<img scr="" style="width:100%">
+		</div>
+	</div>-->
+	</main><br><br>
+
+	<footer>
+		
+		<div id="topfooter">
+			<div class="column" id="about"><span class="note"><center>ABOUT DELICIOUS TREATY</center></span><br>
+				
+				Although we are a new restaurant in Nandi Hills located in Bengaluru (JUNE 2020), we are an authentic Indian Kitchen!
+				It's all about traditional family style cooking. All items are freshly made everyday. We even fresh grind our spices before cooking.<br>
+				The food is prepared by cooks who have been in the industry for more than two decades. <br>
+			</div>
+			<div class="column" id="gallery"><span class="note"><center>PHOTO GALLERY</center></span><br>
+				<div>
+				<center>
+				<img id="galleryimage" src="https://www.taalfineindiancuisine.com/images/media/slider3.1.jpg">
+				<img src="https://wallpaperaccess.com/full/1316978.jpg" id="galleryimage">
+				<img id="galleryimage" src="https://s2.dmcdn.net/v/G1pyV1NNeOkbY-v_V/x1080"><br>
+				<img src="https://www.wallpaperup.com/uploads/wallpapers/2013/12/17/197537/47d9dc8f134663b4f4c99b6e50c24093.jpg" id="galleryimage">
+				<img src="https://mithaiduniya.com/wp-content/uploads/2020/08/Dates-Rasmalai.jpg" id="galleryimage">
+				<img src="https://media14.s-nbcnews.com/i/MSNBC/Components/Video/202001/tdy_food_mocktails_200109_1920x1080.jpg" id="galleryimage">
+				</center>
+				</div>
+			</div>
+			
+			<div class="column" id="operation"><span class="note"><center>HOURS OF OPERATION</center></span><br>
+				<center>
+				<table>
+					<tr>
+						<th>Monday</th>
+						<td>Closed</td>
+					</tr>
+					<tr>
+						<th>Tuesday</th>
+						<td>11:00 - 22:00</td>
+					</tr>
+					<tr>
+						<th>Wednesday</th>
+						<td>11:00 - 22:00</td>
+					</tr>
+					<tr>
+						<th>Thurday</th>
+						<td>Closed</td>
+					</tr>		
+					<tr>
+						<th>Friday</th>
+						<td>11:00 - 22:00</td>
+					</tr>
+					<tr>
+						<th>Saturday</th>
+						<td>12:00 - 23:00</td>
+					</tr>
+					<tr>
+						<th>Sunday</th>
+						<td>12:00 - 23:00</td>
+					</tr>
+
+				</table>
+					
+				</center>
+				
+			</div>
+			
+			<div class="column" id="lsc">
+				<div><span class="note" ><center>LOCATION</center></span><br>
+					<div id="location">
+					Delicious Treaty<br>
+					Street No.~279<br>
+					Nandi Hills, Chikkaballapur<br>
+					Bengaluru, Karnataka<br>
+					Pincode: 562101<br>
+					Phone : +91 9876543210
+				</div>
+				</div>
+				
+
+				<div id="social"><span class="note"><center>SOCIAL CONNECT</center></span>
+					<span style="font-family: 'Indie Flower', cursive;font-size: 1.5vw"><center>Let's Be Friend<br></center></span>
+					<center>
+					<a href="#"><i class="fa fa-facebook-square" style="color:#4267B2;" id="icon"></i></a>
+					<a href="#"><i class="fa fa-instagram" id="instagram"></i></a>
+					<a href="#"><i class="fa fa-twitter" id="icon" style="color: #1DA1F2;"></i></a>
+					<a href="#"><i class="fa fa-pinterest-square" id="icon" style="color: #cc2127;"></i></a>
+					<a href="#"><i class="fa fa-google-plus" id="icon" style="color:red;"></i></a>
+					</center>
+				</div>
+				
+			
+			</div>
+		
+		</div>
+		<hr>
+
+		<div id="bottomfooter">
+			<center>
+				<div id="copyright"><center>&#169; Copyright 2020 Delicious Treaty</center>
+				</div>
+				
+				<div id="PrivacyPolicy">
+					Privacy Policy
+				</div>
+			</center>
+		</div>
+	</footer>
+
+	<script src="footer.js"></script>
+
+</body>
+</html>
