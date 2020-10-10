@@ -150,7 +150,7 @@ function showDivssealounge(n) {
 }
 
 var bakeryIndex = 1;
-showDivs(bakeryIndex);
+showDivsbakery(bakeryIndex);
 
 function plusDivsbakery(n) {
   showDivsbakery(bakeryIndex += n);
